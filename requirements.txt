@@ -1,0 +1,5 @@
+torch
+norse
+gymnasium
+stable-baselines3
+numpy
