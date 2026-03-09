@@ -1,0 +1,32 @@
+{
+    "CartPole-v1": {
+        "SNN_reward_mean": 292.3,
+        "SNN_reward_std": 139.13522199644487,
+        "ANN_reward_mean": 500.0,
+        "ANN_reward_std": 0.0,
+        "SNN_params": 37699,
+        "ANN_params": 42179,
+        "SNN_grad_norm": 0.4999999817399258,
+        "SNN_spike_rate": "tensor(0.1641)"
+    },
+    "Acrobot-v1": {
+        "SNN_reward_mean": -92.4,
+        "SNN_reward_std": 27.4379299510732,
+        "ANN_reward_mean": -88.6,
+        "ANN_reward_std": 24.24541193710678,
+        "SNN_params": 108036,
+        "ANN_params": 42500,
+        "SNN_grad_norm": 0.4999999439813813,
+        "SNN_spike_rate": "tensor(0.2859)"
+    },
+    "Pendulum-v1": {
+        "SNN_reward_mean": -1136.3512925000862,
+        "SNN_reward_std": 318.7521296847043,
+        "ANN_reward_mean": -169.01546937017048,
+        "ANN_reward_std": 83.26293809765484,
+        "SNN_params": 107523,
+        "ANN_params": 41987,
+        "SNN_grad_norm": 0.5000000280454102,
+        "SNN_spike_rate": "tensor(0.4484)"
+    }
+}
