@@ -1,5 +1,6 @@
-torch
-norse
-gymnasium
-stable-baselines3
-numpy
+gymnasium>=0.29.1  # ← REPLACE gym with gymnasium
+torch>=2.0.0
+optuna>=3.0.0
+numpy>=1.24.0
+matplotlib
+pandas
