@@ -1,0 +1,108 @@
+{
+  "env": "Pendulum-v1",
+  "algo": "SNN_REINFORCE",
+  "search_space": {
+    "n_layers": [
+      1
+    ],
+    "hidden_sizes": [
+      32,
+      64,
+      128
+    ],
+    "neuron_type": [
+      "LIF",
+      "IF"
+    ],
+    "timesteps": [
+      5,
+      10,
+      20
+    ],
+    "v_threshold_range": [
+      0.5,
+      1.5
+    ],
+    "tau_range": [
+      5.0,
+      20.0
+    ]
+  },
+  "best_params": {
+    "n_layers": 1,
+    "hidden_sizes": 64,
+    "neuron_type": "IF",
+    "timesteps": 20,
+    "v_threshold": 1.3382884197701195,
+    "tau": 7.512945270499889
+  },
+  "best_value": -1263.538567242129,
+  "n_trials": 5,
+  "trials": [
+    {
+      "trial_id": 0,
+      "params": {
+        "n_layers": 1,
+        "hidden_sizes": 128,
+        "neuron_type": "LIF",
+        "timesteps": 5,
+        "v_threshold": 1.142111120529988,
+        "tau": 18.808316565701343
+      },
+      "value": -1713.594451386919,
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "trial_id": 1,
+      "params": {
+        "n_layers": 1,
+        "hidden_sizes": 64,
+        "neuron_type": "IF",
+        "timesteps": 20,
+        "v_threshold": 1.3382884197701195,
+        "tau": 7.512945270499889
+      },
+      "value": -1263.538567242129,
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "trial_id": 2,
+      "params": {
+        "n_layers": 1,
+        "hidden_sizes": 64,
+        "neuron_type": "IF",
+        "timesteps": 10,
+        "v_threshold": 0.7282782317308246,
+        "tau": 7.025274145672215
+      },
+      "value": -1394.2938103244348,
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "trial_id": 3,
+      "params": {
+        "n_layers": 1,
+        "hidden_sizes": 128,
+        "neuron_type": "LIF",
+        "timesteps": 20,
+        "v_threshold": 1.2322910381283247,
+        "tau": 11.60850345217526
+      },
+      "value": -1286.60709253055,
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "trial_id": 4,
+      "params": {
+        "n_layers": 1,
+        "hidden_sizes": 32,
+        "neuron_type": "LIF",
+        "timesteps": 10,
+        "v_threshold": 1.2266298539123506,
+        "tau": 7.73193146673248
+      },
+      "value": -1440.231156349076,
+      "state": "TrialState.COMPLETE"
+    }
+  ]
+}

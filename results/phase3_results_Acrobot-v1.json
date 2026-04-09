@@ -30,39 +30,91 @@
   },
   "best_params": {
     "n_layers": 1,
-    "hidden_sizes": 128,
-    "neuron_type": "LIF",
-    "timesteps": 20,
-    "v_threshold": 0.8723649132938812,
-    "tau": 9.205676680363577
+    "hidden_sizes": 32,
+    "neuron_type": "IF",
+    "timesteps": 5,
+    "v_threshold": 0.517201871958102,
+    "tau": 5.665527657836586
   },
-  "best_value": -453.13,
-  "n_trials": 2,
+  "best_value": -335.01032299999997,
+  "n_trials": 6,
   "trials": [
     {
       "trial_id": 0,
       "params": {
         "n_layers": 1,
-        "hidden_sizes": 128,
-        "neuron_type": "IF",
-        "timesteps": 5,
-        "v_threshold": 1.176076404227381,
-        "tau": 13.49230400797973
+        "hidden_sizes": 64,
+        "neuron_type": "LIF",
+        "timesteps": 20,
+        "v_threshold": 0.5378357714524571,
+        "tau": 14.449811534547502
       },
-      "value": -499.16,
-      "state": "TrialState.COMPLETE"
+      "value": null,
+      "state": "TrialState.FAIL"
     },
     {
       "trial_id": 1,
       "params": {
         "n_layers": 1,
-        "hidden_sizes": 128,
-        "neuron_type": "LIF",
-        "timesteps": 20,
-        "v_threshold": 0.8723649132938812,
-        "tau": 9.205676680363577
+        "hidden_sizes": 32,
+        "neuron_type": "IF",
+        "timesteps": 5,
+        "v_threshold": 0.517201871958102,
+        "tau": 5.665527657836586
       },
-      "value": -453.13,
+      "value": -335.01032299999997,
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "trial_id": 2,
+      "params": {
+        "n_layers": 1,
+        "hidden_sizes": 32,
+        "neuron_type": "IF",
+        "timesteps": 10,
+        "v_threshold": 0.8739032654381256,
+        "tau": 16.390854974682444
+      },
+      "value": -481.610323,
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "trial_id": 3,
+      "params": {
+        "n_layers": 1,
+        "hidden_sizes": 32,
+        "neuron_type": "LIF",
+        "timesteps": 5,
+        "v_threshold": 1.4832462716655466,
+        "tau": 6.195569140557413
+      },
+      "value": -500.000323,
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "trial_id": 4,
+      "params": {
+        "n_layers": 1,
+        "hidden_sizes": 64,
+        "neuron_type": "IF",
+        "timesteps": 5,
+        "v_threshold": 0.7642738571798403,
+        "tau": 14.025558979304327
+      },
+      "value": -492.650643,
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "trial_id": 5,
+      "params": {
+        "n_layers": 1,
+        "hidden_sizes": 64,
+        "neuron_type": "LIF",
+        "timesteps": 5,
+        "v_threshold": 0.9201488342979928,
+        "tau": 5.859044667876358
+      },
+      "value": -473.41064300000005,
       "state": "TrialState.COMPLETE"
     }
   ]
